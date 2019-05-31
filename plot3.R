@@ -1,3 +1,4 @@
+source("./data_handling.R")
 png(file= "plot3.png")
 
 plot(household$Sub_metering_1~household$Date_Time, type= 'l',ylab= "Energy Submetering", xlab="")
